@@ -11,4 +11,8 @@ def main () :
     range (0, 101, 10)
     print (F,C)
     
+<<<<<<< HEAD
 main()
+=======
+main()
+>>>>>>> c2e19ba974e742373cac98283187ea85762cda2f
