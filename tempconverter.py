@@ -8,5 +8,7 @@ def main () :
     F = eval (input("What is the Tempature in F?"))
     C = (F-32) * 5/9
     print ("The temperature is", C, "Degrees F")
-
+    range (0, 101, 10)
+    print (F,C)
+    
 main()
