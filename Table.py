@@ -8,7 +8,6 @@ def main ():
         for x in range (0, 101, 10):
             a= x* 9/5+35
             print(x,a)
-             
         
   
         
