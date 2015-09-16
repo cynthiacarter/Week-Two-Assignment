@@ -1,12 +1,13 @@
 __author__ = 'Cynthia Carter'
 # CS 125 Fall 2015
-# MileConvertor.py
-# a program that coverts Killimeters to miles
+# Tempconverter.py
+# a program that coverts Temperature from F to C 
 
 def main () :
 
-    K = eval (input("Enter Killometers"))
-    M = K * .62
-    print ("You have traveled", M, "Miles")
+    F = eval (input("What is the Tempature in F?"))
+    C = (F-32) * 5/9
+    print ("The temperature is", C, "Degrees F")
+    range (0, 101, 10)
 
 main()
